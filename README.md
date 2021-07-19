@@ -4,11 +4,12 @@ Also, we were using [json-server](https://github.com/typicode/json-server) to ad
 
 You can view your db by running the following in cmd prompt..
 
-**json-server --watch mockserver/db.json --port 3004**
+**json-server --watch mockserver/db.json --port 3004** 
 
 As i am using react-app in 3000 port, i changed it to 3001 in npm global directories.
 
 Windows:
+
 
 change host(H) as 127.0.0.1 and port(p) 3001 in users/username/appdata/roaming/npm/node_modules/json-server/bin/index.js
 
